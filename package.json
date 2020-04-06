@@ -1,6 +1,6 @@
 {
   "name": "rc-menu",
-  "version": "7.5.5-ksd.2",
+  "version": "7.5.5-ksd.1",
   "description": "menu ui component for react",
   "keywords": [
     "react",
@@ -72,5 +72,8 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "typescript": "^3.5.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@kaltarbeit"
   }
 }
