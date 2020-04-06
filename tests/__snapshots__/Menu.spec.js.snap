@@ -33,7 +33,6 @@ exports[`Menu render role listbox renders menu correctly 1`] = `
 exports[`Menu should render horizontal menu correctly 1`] = `
 <ul
   class="rc-menu myMenu rc-menu-root rc-menu-horizontal"
-  role="menu"
   tabindex="0"
 >
   <li
@@ -68,7 +67,6 @@ exports[`Menu should render horizontal menu correctly 1`] = `
     >
       <li
         class="rc-menu-item"
-        role="menuitem"
       >
         1
       </li>
@@ -77,7 +75,6 @@ exports[`Menu should render horizontal menu correctly 1`] = `
       />
       <li
         class="rc-menu-item"
-        role="menuitem"
       >
         2
       </li>
@@ -103,7 +100,6 @@ exports[`Menu should render horizontal menu correctly 1`] = `
   </li>
   <li
     class="rc-menu-item"
-    role="menuitem"
   >
     3
   </li>
@@ -139,14 +135,12 @@ exports[`Menu should render horizontal menu correctly 1`] = `
     >
       <li
         class="rc-menu-item"
-        role="menuitem"
       >
         4
       </li>
       <li
         aria-disabled="true"
         class="rc-menu-item rc-menu-item-disabled"
-        role="menuitem"
       >
         5
       </li>
@@ -210,7 +204,6 @@ exports[`Menu should render horizontal menu correctly 1`] = `
 exports[`Menu should render inline menu correctly 1`] = `
 <ul
   class="rc-menu myMenu rc-menu-root rc-menu-inline"
-  role="menu"
   tabindex="0"
 >
   <li
@@ -227,7 +220,6 @@ exports[`Menu should render inline menu correctly 1`] = `
     >
       <li
         class="rc-menu-item"
-        role="menuitem"
         style="padding-left:24px"
       >
         1
@@ -237,7 +229,6 @@ exports[`Menu should render inline menu correctly 1`] = `
       />
       <li
         class="rc-menu-item"
-        role="menuitem"
         style="padding-left:24px"
       >
         2
@@ -246,7 +237,6 @@ exports[`Menu should render inline menu correctly 1`] = `
   </li>
   <li
     class="rc-menu-item"
-    role="menuitem"
     style="padding-left:24px"
   >
     3
@@ -265,7 +255,6 @@ exports[`Menu should render inline menu correctly 1`] = `
     >
       <li
         class="rc-menu-item"
-        role="menuitem"
         style="padding-left:24px"
       >
         4
@@ -273,7 +262,6 @@ exports[`Menu should render inline menu correctly 1`] = `
       <li
         aria-disabled="true"
         class="rc-menu-item rc-menu-item-disabled"
-        role="menuitem"
         style="padding-left:24px"
       >
         5
@@ -304,7 +292,6 @@ exports[`Menu should render inline menu correctly 1`] = `
 exports[`Menu should render vertical menu correctly 1`] = `
 <ul
   class="rc-menu myMenu rc-menu-root rc-menu-vertical"
-  role="menu"
   tabindex="0"
 >
   <li
@@ -321,7 +308,6 @@ exports[`Menu should render vertical menu correctly 1`] = `
     >
       <li
         class="rc-menu-item"
-        role="menuitem"
       >
         1
       </li>
@@ -330,7 +316,6 @@ exports[`Menu should render vertical menu correctly 1`] = `
       />
       <li
         class="rc-menu-item"
-        role="menuitem"
       >
         2
       </li>
@@ -338,7 +323,6 @@ exports[`Menu should render vertical menu correctly 1`] = `
   </li>
   <li
     class="rc-menu-item"
-    role="menuitem"
   >
     3
   </li>
@@ -356,14 +340,12 @@ exports[`Menu should render vertical menu correctly 1`] = `
     >
       <li
         class="rc-menu-item"
-        role="menuitem"
       >
         4
       </li>
       <li
         aria-disabled="true"
         class="rc-menu-item rc-menu-item-disabled"
-        role="menuitem"
       >
         5
       </li>

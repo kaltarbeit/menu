@@ -421,8 +421,6 @@ export class SubPopupMenu extends React.Component<SubPopupMenuProps> {
     );
     const domProps: React.HTMLAttributes<HTMLElement> = {
       className,
-      // role could be 'select' and by default set to menu
-      role: props.role || 'menu',
     };
     if (props.id) {
       domProps.id = props.id;

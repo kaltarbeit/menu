@@ -21,7 +21,6 @@ exports[`MenuItem overwrite default role should set role to none if none 1`] = `
 exports[`MenuItem overwrite default role should set role to none if null 1`] = `
 <li
   class="undefined-item"
-  role="none"
 >
   test
 </li>
@@ -39,13 +38,11 @@ exports[`MenuItem overwrite default role should set role to option 1`] = `
 exports[`MenuItem rest props onClick event should only trigger 1 time along the component hierarchy 1`] = `
 <ul
   class="rc-menu  rc-menu-root rc-menu-inline"
-  role="menu"
   tabindex="0"
 >
   <li
     class="rc-menu-item className rc-menu-item-active"
     data-whatever="whatever"
-    role="menuitem"
     style="font-size: 20px; padding-left: 24px;"
     title="title"
   >
@@ -88,7 +85,6 @@ exports[`MenuItem rest props onClick event should only trigger 1 time along the 
       <li
         class="rc-menu-item className"
         data-whatever="whatever"
-        role="menuitem"
         style="font-size: 20px; padding-left: 24px;"
         title="title"
       >

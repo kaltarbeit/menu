@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import Trigger from 'rc-trigger';
+import Trigger from '@kaltarbeit/rc-trigger';
 import KeyCode from 'rc-util/lib/KeyCode';
 // import Animate from 'rc-animate';
 import CSSMotion from 'rc-animate/lib/CSSMotion';
